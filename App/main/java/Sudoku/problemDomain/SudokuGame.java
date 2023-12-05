@@ -1,6 +1,7 @@
 package Sudoku.problemDomain;
 
 import Sudoku.ComputationalLogic.SudokuUtilities;
+import Sudoku.Constants.GameState;
 
 import java.io.Serializable;
 
@@ -21,7 +22,7 @@ public class SudokuGame implements Serializable {
         return gameState;
     }
     // we will return a copy of gridState
-    public int[][] getGridState() {
+    public int[][] getCopyOfGridState() {
         return SudokuUtilities.copyToNewArray(gridState);
     }
 }
