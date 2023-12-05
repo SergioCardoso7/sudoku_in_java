@@ -1,4 +1,4 @@
-package Sudoku.ComputationalLogic;
+package Sudoku.computationalLogic;
 
 import Sudoku.userInterface.IUserInterfaceContract;
 
