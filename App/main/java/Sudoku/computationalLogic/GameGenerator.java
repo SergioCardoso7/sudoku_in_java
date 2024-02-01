@@ -78,7 +78,7 @@ public class GameGenerator {
         boolean solvable = false;
         int[][] solvableArray = new int[GRID_BOUNDARY][GRID_BOUNDARY];
 
-        while (solvable == false){
+        while (!solvable){
             SudokuUtilities.copySudokuArrayValues(solvedGame, solvableArray);
 
             int index = 0;

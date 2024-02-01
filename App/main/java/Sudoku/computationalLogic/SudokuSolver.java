@@ -13,7 +13,7 @@ public class SudokuSolver {
         Coordinates[] emptyCells = typeWritterEnumerate(puzzle);
 
         int index = 0;
-        int input = 1;
+        int input;
 
         while (index < 10) {
             Coordinates current = emptyCells[index];
